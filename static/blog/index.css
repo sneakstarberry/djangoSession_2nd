@@ -1,0 +1,88 @@
+html{
+    overflow: hidden;
+}
+header > p {
+    color: white;
+    font-size: 7vw;
+}
+
+header {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 16vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('/assets/images/top.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    background-color: black;
+    height: calc(6vh - 9px);
+    width: 100%;
+}
+
+section{
+    background-color:orange; 
+    height: 73vh; 
+    width:100%;
+    display: flex !important;
+    justify-content: flex-end;
+    overflow-y: auto;
+}
+
+section > div {
+    transition: all 0.2s;
+}
+
+section > div > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section > div > div > div {
+    background-color: aliceblue;
+    height: 90%;
+    width: 100%
+}
+
+.act{
+    width:100% !important;
+}
+
+.selected {
+    width: 2vw;
+    position: relative;
+    top:20px;
+    left: 55%;
+    cursor: pointer;
+    font-size: 2vw;
+}
+
+.aside{
+    position: absolute;
+    transform: translateX(0%);
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:red;
+    height: 73vh;
+    width:30%
+}
+
+img {
+    width: 50%;
+}
+
+.user-items{
+    margin-top: 8px;
+    width: 60%;
+    word-break: break-all;
+    text-align: center;
+}
+
+
+
+
