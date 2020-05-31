@@ -164,3 +164,9 @@ footer {
     color:white;
     padding-left: 8px;
 }
+
+.img-responsive{
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
